@@ -10,17 +10,17 @@ package ar.edu.unlar.prestamos.objects;
  * @author Administrador
  */
 class Cuota {
-    private Double capital;
+    private Double capitalAdeudado;
     private Double interes;
     private Double monto;
     private String descripcion;
 
-    public Double getCapital() {
-        return capital;
+    public Double getCapitalAdeudado() {
+        return capitalAdeudado;
     }
 
-    public void setCapital(Double capital) {
-        this.capital = capital;
+    public void setCapitalAdeudado(Double capitalAdeudado) {
+        this.capitalAdeudado = capitalAdeudado;
     }
 
     public Double getInteres() {
